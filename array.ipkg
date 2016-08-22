@@ -4,4 +4,4 @@ modules = Data.Array
 pkgs = prelude
 
 makefile = Makefile
-objs = Array.o
+objs = Array.h, Array.o
