@@ -3,7 +3,7 @@
 
 VAL idris_makeArray(int len) {
 	VAL arr;
-	allocCon(arr, 0, 0, len, 0);
+	allocCon(arr, get_vm(), 0, len, 0);
 	return arr;
 }
 
